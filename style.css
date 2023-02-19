@@ -30,6 +30,11 @@ nav {
   margin: 50px 200px;
 }
 
+section {
+  margin-top: 130px;
+}
+
+/*  */
 .nav-title {
   font-weight: 800;
   font-size: 45px;
@@ -75,7 +80,7 @@ main {
 }
 /* about section style */
 .about-me {
-  margin-top: 10px;
+  margin-top: 130px;
   background: #fff8f3;
   border-radius: 10px;
   padding: 130px 150px;
@@ -84,6 +89,9 @@ main {
 
 .section-title {
   margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
 }
 
 .section-description {
@@ -101,6 +109,31 @@ main {
 }
 .info-description {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 15px;
   color: #474747;
+}
+/* what i do style */
+
+/*  */
+
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  background: #ffffff;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
 }
