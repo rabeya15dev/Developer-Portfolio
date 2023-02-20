@@ -14,6 +14,17 @@
   border: 0;
 }
 
+.btn-contact {
+  height: 64px;
+  background: #fff8f3;
+  border-style: solid;
+  border-color: #fd6e0a;
+  border-radius: 5px;
+  color: #fd6e0a;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 18px 35px;
+}
 .header {
   width: 1500px;
   height: 837px;
